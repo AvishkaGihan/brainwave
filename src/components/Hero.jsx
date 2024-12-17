@@ -1,5 +1,11 @@
+import Section from "./Section";
+
 const Hero = () => {
-  return <div className="">Hero</div>;
+  return (
+    <Section crosses crossesOffset="lg:translate-y-[5.25rem]">
+      Hero
+    </Section>
+  );
 };
 
 export default Hero;
